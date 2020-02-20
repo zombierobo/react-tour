@@ -1,0 +1,49 @@
+.tour-step {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.tour-step__backdrop {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.tour-step__content {
+  position: absolute;
+  width: 300px;
+  max-height: 70%;
+  background-color: #fff;
+  padding: 15px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  transition: all 300ms linear;
+}
+
+.tour-step__title__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tour-step__title__wrapper__close-btn {
+  margin-left: auto;
+}
+
+.tour-step__body__wrapper {
+  margin: 9px 0px;
+}
+
+.tour-target-highlight {
+  z-index: 4;
+  position: relative;
+}

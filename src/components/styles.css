@@ -1,0 +1,40 @@
+header {
+  padding: 12px 9px;
+  border-bottom: 2px solid #ccc;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+nav > a {
+  text-decoration: none;
+  transition: color 0.25s ease-in-out;
+}
+
+nav > a,
+a:visited {
+  color: #737373;
+}
+
+nav > a.active {
+  color: #000000;
+}
+
+nav > a:hover {
+  color: #313131;
+}
+
+nav > a:not(:last-child) {
+  margin-right: 18px;
+}
+
+.content {
+  padding: 15px;
+}
